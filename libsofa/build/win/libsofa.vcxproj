@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -53,7 +53,7 @@
     <ClCompile Include="..\..\src\SOFAEmitter.cpp" />
     <ClCompile Include="..\..\src\SOFAFile.cpp" />
     <ClCompile Include="..\..\src\SOFAGeneralFIR.cpp" />
-    <ClCompile Include="..\..\src\SOFAGeneralFIRE.cpp" />    
+    <ClCompile Include="..\..\src\SOFAGeneralFIRE.cpp" />
     <ClCompile Include="..\..\src\SOFAGeneralTF.cpp" />
     <ClCompile Include="..\..\src\SOFAHelper.cpp" />
     <ClCompile Include="..\..\src\SOFAListener.cpp" />
@@ -64,8 +64,8 @@
     <ClCompile Include="..\..\src\SOFASimpleFreeFieldHRIR.cpp" />
     <ClCompile Include="..\..\src\SOFASimpleFreeFieldSOS.cpp" />
     <ClCompile Include="..\..\src\SOFASimpleHeadphoneIR.cpp" />
-    <ClCompile Include="..\..\src\SOFAMultiSpeakerBRIR.cpp" />    
-    <ClCompile Include="..\..\src\SOFASingleRoomDRIR.cpp" />        
+    <ClCompile Include="..\..\src\SOFAMultiSpeakerBRIR.cpp" />
+    <ClCompile Include="..\..\src\SOFASingleRoomDRIR.cpp" />
     <ClCompile Include="..\..\src\SOFASource.cpp" />
     <ClCompile Include="..\..\src\SOFAString.cpp" />
     <ClCompile Include="..\..\src\SOFAUnits.cpp" />
@@ -74,23 +74,24 @@
     <ProjectGuid>{BD65F1EB-AF1B-483F-8BF2-08C5AD7E9BC1}</ProjectGuid>
     <RootNamespace>libsofa</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
