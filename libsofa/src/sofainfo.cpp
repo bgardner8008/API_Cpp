@@ -313,6 +313,8 @@ static void PrintSource(const sofa::File &theFile,
 
 		if (dims.size() == 2) {
 
+			output << "dimensions: " << dims[0] << " by " << dims[1] << std::endl;
+
 			std::vector< double > pos;
 			pos.resize(dims[0] * dims[1]);
 
