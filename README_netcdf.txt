@@ -1,3 +1,6 @@
+This whole thing is crap! Yes, it builds a static lib, but it's missing all the needed functions. So instead we ship a separate app Sofa2Pan that includes the netcdf installer.
+
+========
 
 How to build static Windows libs for netcdf. By default the libs that come with libsofa are DLL import libs and we want to avoid shipping DLLs with plugs.
 
