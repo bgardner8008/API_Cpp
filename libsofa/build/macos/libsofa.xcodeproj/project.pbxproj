@@ -72,6 +72,8 @@
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.gcc.4_2;
 			fileType = sourcecode.cpp;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -623,6 +625,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F849B7EC175B917E00BB7C57 /* libsofa.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -630,6 +635,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8ABC6D2173D2D8B00F18AD2 /* libsofa.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -654,10 +662,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F849B7EC175B917E00BB7C57 /* libsofa.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = x86_64;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = all;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -665,8 +676,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8ABC6D2173D2D8B00F18AD2 /* libsofa.release.xcconfig */;
 			buildSettings = {
+				ARCHS = x86_64;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = all;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -675,6 +689,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8FD650B187EC4A6007B45C0 /* shelltools.debug.xcconfig */;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -682,6 +698,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8FD650C187EC4A6007B45C0 /* shelltools.release.xcconfig */;
 			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -689,6 +708,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8FD650B187EC4A6007B45C0 /* shelltools.debug.xcconfig */;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -696,6 +717,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8FD650C187EC4A6007B45C0 /* shelltools.release.xcconfig */;
 			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -703,6 +727,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8FD650B187EC4A6007B45C0 /* shelltools.debug.xcconfig */;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -710,6 +736,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8FD650C187EC4A6007B45C0 /* shelltools.release.xcconfig */;
 			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
